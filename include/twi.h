@@ -3,8 +3,7 @@
 
 #include <stdint.h>
 #include <stdbool.h>
-
-#include "defines.h"
+#include <avr/io.h>
 
 #define PRT PORTB
 #define DDR DDRB

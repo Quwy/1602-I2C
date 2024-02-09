@@ -10,8 +10,6 @@ Port PCF8574 :  7  6  5  4  3  2  1  0
 #include <stdint.h>
 #include <stdbool.h>
 
-#include "defines.h"
-
 void lcd_init(const uint8_t address, const uint8_t columns, const bool backlight);
 void lcd_goto_xy(const uint8_t x, const uint8_t y);
 void lcd_clear(void);
