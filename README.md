@@ -6,4 +6,6 @@ Applicable for any AVR ATtiny chip with USI interface support: 24/44/84, 25/45/8
 
 Do not requires any extelnal libraries.
 
+![alt text](https://github.com/Quwy/1602-I2C/blob/main/images/LCD_demo.jpg?raw=true)
+
 Included sample test application for ATtiny25/45/85 and simulated circuit for Proteus.
