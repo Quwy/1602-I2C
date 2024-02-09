@@ -3,7 +3,7 @@
 
 #include "twi.h"
 
-#define TWI_FREQ 100000
+#define TWI_FREQ 100000 // Hz
 
 static inline void twi_delay(void) {
     _delay_us(1000000.0f / (TWI_FREQ * 2));

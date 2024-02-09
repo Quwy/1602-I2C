@@ -12,7 +12,7 @@
 #include "lcd.h"
 
 int main(void) {
-	const char STR[] = "Demo application for HD44780+PCF8574 I2C 1602/1604/2004 LCD display";
+    const char STR[] = "Demo application for HD44780+PCF8574 I2C 1602/1604/2004 LCD display";
     uint8_t i, start = 0;
 
     lcd_init(0x4E, 16, true);
