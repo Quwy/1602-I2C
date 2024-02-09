@@ -9,3 +9,5 @@ Do not requires any extelnal libraries.
 ![alt text](https://github.com/Quwy/1602-I2C/blob/main/images/LCD_demo.jpg?raw=true)
 
 Included sample test application for ATtiny25/45/85 and simulated circuit for Proteus.
+
+![alt text](https://github.com/Quwy/1602-I2C/blob/main/images/LCD_proteus.png?raw=true)
