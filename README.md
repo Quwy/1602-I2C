@@ -8,7 +8,7 @@ Applicable for any AVR ATtiny chip with USI interface support: 24/44/84, 25/45/8
 
 * Pure C
 * Does not requires any external ~~Arduino~~ libraries
-* Binary less than 1K
+* Minimal application about 750 bytes
 
 ![Demo circuit live photo](https://github.com/Quwy/1602-I2C/blob/main/images/LCD_demo.jpg?raw=true)
 
