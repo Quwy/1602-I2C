@@ -1,6 +1,4 @@
-#include <avr/io.h>
 #include <util/delay.h>
-#include <avr/interrupt.h>
 #include <stddef.h>
 
 #include "twi.h"
@@ -122,4 +120,3 @@ bool twi_write_begin(const uint8_t address) {
 void twi_write_end(void) {
     twi_stop();
 }
-

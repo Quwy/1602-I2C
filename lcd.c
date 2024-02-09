@@ -1,5 +1,4 @@
 /*********************************************
-Project : I2C to LCD Interface-Routine
 Port PCF8574 :  7  6  5  4  3  2  1  0
                D7 D6 D5 D4 BL EN RW RS
 **********************************************/
@@ -156,8 +155,8 @@ void lcd_safe_puts(const char *str) {
 }
 
 void lcd_fast_puts(const char *const str) {
-	const uint8_t len = strlen(str);
-	
+    const uint8_t len = strlen(str);
+        
     lcd_write_data((uint8_t *) str, len);
     lcd_context.x += len;
 }
@@ -201,15 +200,13 @@ bool lcd_get_backlight(void) {
 }
 
 uint8_t lcd_get_width(void) {
-	return lcd_context.width;
+    return lcd_context.width;
 }
 
 uint8_t lcd_get_x(void) {
-	return lcd_context.x;
+    return lcd_context.x;
 }
 
 uint8_t lcd_get_y(void) {
-	return lcd_context.y;
+    return lcd_context.y;
 }
-
-
